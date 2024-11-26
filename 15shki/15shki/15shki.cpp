@@ -1,5 +1,15 @@
 #include <iostream>
 using namespace std;
+
+void RandZap(int** mas)
+{
+
+}
+
+
+
+
+
 int main()
 {
     setlocale (LC_ALL,"rus");
