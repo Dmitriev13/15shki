@@ -1,5 +1,11 @@
 #include <iostream>
 using namespace std;
+
+void w
+{
+    
+}
+
 int main()
 {
     setlocale (LC_ALL,"rus");
