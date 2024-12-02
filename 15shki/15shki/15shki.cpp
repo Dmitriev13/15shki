@@ -35,6 +35,30 @@ void RandZap(int** mas, int n, int m)
 
 bool ProvPob(int** mas)
 {
+int t=0;
+int r=1;
+for (int i = 0; i < n; i++)
+{
+	for (int j = 0; j < m; j++)
+	{
+
+		if( mas[i][j]==t)
+		  {
+              		r=r*1;
+			t+=1;
+           	  }
+          	else
+           	  {
+              		r=r*0;
+            	  }
+	
+	}
+	return r;
+}	
+
+
+
+	
   int r=1;
     for (int i=0;i<16;i++)
         {
