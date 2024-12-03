@@ -1,10 +1,14 @@
 #include <iostream>
 using namespace std;
 
-void w
+void vvod()
 {
-    
+    cout << "Введите какое число вводить" << endl;
+    int x;
+    cin >> x; 
 }
+
+
 
 int main()
 {
