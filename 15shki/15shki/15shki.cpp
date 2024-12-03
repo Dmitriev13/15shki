@@ -23,4 +23,9 @@ int move(int x, int** arr)
     {
         move(arr);
     }
+    else
+    {
+        cout << "Поздравляю, вы выйграли!";
+        return 0;
+    }
 }
