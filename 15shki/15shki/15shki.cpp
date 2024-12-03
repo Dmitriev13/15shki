@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+#include "header.h";
 
 void vvod()
 {
@@ -8,11 +7,20 @@ void vvod()
     cin >> x; 
 }
 
-
-
-int main()
+int move(int x, int** arr)
 {
-    setlocale (LC_ALL,"rus");
-    cout << "Игра - пятняшки"<<endl;
-    cout << "Цель игры - на поле 4х4 следует разместить цифры в порядке возрастания от 1 до 15, 0 - пустая клетка"<<endl;
+    int a;
+    int b;
+        for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                    {
+                        a.find(x);
+                        b.find(0);
+                        swap(a, b);
+    return ProvProb(int** arr);
+    if (!(ProvProb))
+    {
+        move(arr);
+    }
 }
