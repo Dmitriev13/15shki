@@ -1,14 +1,11 @@
 #include "header.h";
 
-void vvod()
+
+int move(int x, int** arr)
 {
     cout << "Введите какое число вводить" << endl;
     int x;
     cin >> x; 
-}
-
-int move(int x, int** arr)
-{
     int a;
     int b;
         for (int i = 0; i < 4; i++)
