@@ -1,1 +1,2 @@
-#pragma once
+void RandZap(int** mas);
+bool ProvProb(int** mas);
