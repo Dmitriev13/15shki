@@ -33,7 +33,7 @@ void RandZap(int** mas)
 
 
 
-bool ProvPob(int** mas)
+bool ProvProb(int** mas)
 {
 	int t = 0;
 	int r = 1;
