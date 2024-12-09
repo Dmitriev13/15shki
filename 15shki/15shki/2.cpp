@@ -1,4 +1,5 @@
 #include <algorithm>
+#include "header.h"
 
 void RandZap(int** mas)
 {
