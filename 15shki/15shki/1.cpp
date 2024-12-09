@@ -1,3 +1,5 @@
+#include "header.h"
+
 void move(int x, int** mas)
 {
     int xi = 0, yi = 0, x0 = 0, y0 = 0;
