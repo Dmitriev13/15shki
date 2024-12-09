@@ -1,11 +1,9 @@
 #include <iostream>
-#include "header.h"
 
 using namespace std;
 
 int main()
 {
-   main() {
     setlocale(LC_ALL, "ru");
     srand(time(0));
 
