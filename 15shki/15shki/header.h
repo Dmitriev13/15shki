@@ -1,3 +1,4 @@
-void RandZap(int** mas);
-bool ProvProb(int** mas);
-int move(int x, int** arr);
+#pragma once
+void Randzap(int** mas)
+bool ProvProb(int** mas)
+void move(int x, int** mas)
