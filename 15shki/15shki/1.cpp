@@ -1,5 +1,5 @@
 #include "header.h"
-
+#include <iostream>
 using namespace std;
 
 void move(int x, int** mas)
