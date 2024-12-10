@@ -1,15 +1,28 @@
 #include "header.h"
 #include <iostream>
+#include <string>
 using namespace std;
+
+bool isDigits(const string& str) {
+    for (char i : str) {
+        if(!isdigit(i)) {
+            return false;
+        }
+    }
+    return true;
+}
 
 void move(int x, int** mas)
 {    
-    if (x >= 0 and x <=15){
-    int xi = 0, yi = 0, x0 = 0, y0 = 0;
+    int xi = 0;
+    int yi = 0;
+    int x0 = 0;
+    int y0 = 0;
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
         {
+            isDigits(x);
             if (mas[i][j] == x)
             {
                 xi = i;
@@ -22,12 +35,6 @@ void move(int x, int** mas)
             }
         }
     }
-    }
-    else {
-        cout << "Ваше значение не входит в диапозон!";
-        return move(x, mas);
-    }
-
     if ((abs(xi - x0) + abs(yi - y0)) == 1)
     {
         swap(mas[xi][yi], mas[x0][y0]);
