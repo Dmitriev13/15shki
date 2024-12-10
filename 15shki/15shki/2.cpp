@@ -1,6 +1,8 @@
 #include <algorithm>
 #include "header.h"
 
+using namespace std;
+
 void RandZap(int** mas)
 {
 	int t = 0;
