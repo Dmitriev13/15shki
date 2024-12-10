@@ -1,5 +1,7 @@
 #include "header.h"
 
+using namespace std;
+
 void move(int x, int** mas)
 {    
     if (x >= 0 and x <=15){
@@ -23,7 +25,7 @@ void move(int x, int** mas)
     }
     else {
         cout << "Ваше значение не входит в диапозон!";
-        continue;
+        return move(x, mas);
     }
 
     if ((abs(xi - x0) + abs(yi - y0)) == 1)
