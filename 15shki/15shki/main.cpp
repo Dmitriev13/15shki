@@ -18,7 +18,7 @@ int main()
         mas[i] = new int[4];
     }
 
-    RandZap(mas);
+    Randzap(mas);
     while (true) {
         if (ProvProb(mas))
         {
@@ -29,6 +29,8 @@ int main()
         cout << "Введите число, которое хотите переместить: ";
         int x;
         cin >> x;
+        if (type(x) == int)
+        {
 
         move(x, mas);
 
@@ -45,5 +47,10 @@ int main()
         }
     }
 }
+}
+else
+{
+    return 0
+        }
 
 }
