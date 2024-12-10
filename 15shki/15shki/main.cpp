@@ -29,8 +29,8 @@ int main()
         cout << "Введите число, которое хотите переместить: ";
         int x;
         cin >> x;
-        if (type(x) == int)
-        {
+        if ((x >= 0) or (x <= 15))
+        
 
         move(x, mas);
 
@@ -50,8 +50,8 @@ int main()
 }
 else
 {
-    cout << "Это не число" << endl;
-    return;
+    cout << "Не в диапазоне, увы" << endl;
+    return continue;
         }
 
 }
