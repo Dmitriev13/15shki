@@ -48,10 +48,5 @@ int main()
     }
 }
 }
-else
-{
-    cout << "Не в диапазоне, увы" << endl;
-    return continue;
-        }
 
-}
+
