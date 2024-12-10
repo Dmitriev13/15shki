@@ -50,7 +50,8 @@ int main()
 }
 else
 {
-    return 0
+    cout << "Это не число" << endl;
+    return;
         }
 
 }
