@@ -39,18 +39,17 @@ int main()
                     if (mas[i][j] < 10) 
                     {
                         cout << " " << mas[i][j] << " ";
+                    }
                         else 
                         {
                             cout << mas[i][j] << " ";
                         }
-                    }
-                    cout << endl;
                 }
-                cout << "Ошибка, введи число: ";
+                cout << endl;
             }
+            cout << "Ошибка, введи число: ";
         }
-        
-
+    }
         move(x, mas);
 
         for (int i = 0; i < 4; i++) {
