@@ -3,15 +3,6 @@
 #include <string>
 using namespace std;
 
-bool isDigits(const string& str) {
-    for (char i : str) {
-        if(!isdigit(i)) {
-            return false;
-        }
-    }
-    return true;
-}
-
 void move(int x, int** mas)
 {    
     int xi = 0;
