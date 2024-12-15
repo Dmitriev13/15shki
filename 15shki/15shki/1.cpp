@@ -13,7 +13,6 @@ void move(int x, int** mas)
     {
         for (int j = 0; j < 4; j++)
         {
-            isDigits(x);
             if (mas[i][j] == x)
             {
                 xi = i;
