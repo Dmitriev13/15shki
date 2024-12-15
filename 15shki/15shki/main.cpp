@@ -17,7 +17,7 @@ int main() {
         mas[i] = new int[4];
     }
 
-    RandZap(mas);
+    Randzap(mas);
     while (true) {
         if (ProvProb(mas))
         {
