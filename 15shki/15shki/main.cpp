@@ -28,8 +28,29 @@ int main()
 
         cout << "Введите число, которое хотите переместить: ";
         int x;
-        cin >> x;
-        if ((x >= 0) or (x <= 15))
+         cout << "Введи число, которое хотите переместить: ";
+        int x;
+        while (!(cin >> x)) 
+        {
+            cin.clear();
+            cin.ignore(1, '\n');
+            for (int i = 0; i < 4; i++) 
+            {
+                for (int j = 0; j < 4; j++) 
+                {
+                    if (mas[i][j] < 10) 
+                    {
+                        cout << " " << mas[i][j] << " ";
+                        else 
+                        {
+                            cout << mas[i][j] << " ";
+                        }
+                    }
+                    cout << endl;
+                }
+                cout << "Ошибка, введи число: ";
+            }
+        }
         
 
         move(x, mas);
