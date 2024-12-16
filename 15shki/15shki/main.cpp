@@ -29,7 +29,7 @@ int main() {
         int x;
         while (!(cin >> x)) {
             cin.clear();
-            cin.ignore(1, '\n');
+            cin.ignore(1000, '\n');
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
                     if (mas[i][j] < 10) {
