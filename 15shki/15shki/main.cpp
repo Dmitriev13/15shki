@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 #include "header.h"
 
 using namespace std;
@@ -29,7 +30,7 @@ int main() {
         int x;
         while (!(cin >> x)) {
             cin.clear();
-            cin.ignore(1000, '\n');
+            cin.ignore(numeric_limits<streamsize>"" max(), '\n');
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
                     if (mas[i][j] < 10) {
@@ -41,7 +42,7 @@ int main() {
                 }
                 cout << endl;
             }
-            cout << "Ошибка, введи число: " << endl;
+            cout << "Ошибка, введи число, а не строку: ";
         }
 
         move(x, mas);
