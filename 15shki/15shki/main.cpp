@@ -41,7 +41,7 @@ int main() {
                 }
                 cout << endl;
             }
-            cout << "Ошибка, введи число: ";
+            cout << "Ошибка, введи число: " << endl;
         }
 
         move(x, mas);
